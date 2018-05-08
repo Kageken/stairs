@@ -1,8 +1,35 @@
-h1 {
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url(images/big_cat_sama.jpg);
+	margin: 0;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.header h1{
 	color: white;
-	background-color: black;
+	position: absolute;
+	top: 15%;
+	left: 20%;
 }
 
 .introduction {
-	color: red;
+	width: 400px;
+	height: 500px;
+	border: 1px solid #000;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.favorite {
+	width: 400px;
+	height: 500px;
+	border: 1px solid #000;
+	display: inline-block;
+	vertical-align: top;
 }
