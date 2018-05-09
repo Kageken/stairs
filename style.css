@@ -3,6 +3,16 @@
 	padding: 0;
 }
 
+table.right{
+	margin-left: auto;
+	margin-right: 0;
+}
+
+a:link{color: #ffff00;}
+a:visited{color: #ffaa00;}
+a:hover{color: #aaaa00;}
+a:active{color: #aaff00;}
+
 .header {
 	background-image: url(images/big_cat_sama.jpg);
 	margin: 0;
@@ -14,22 +24,45 @@
 .header h1{
 	color: white;
 	position: absolute;
-	top: 15%;
-	left: 20%;
+	top: 10%;
+	left: 10%;
+	font-family: 'Playfair Display', serif;
+	font-size: 400%;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Merriweather', serif;
 }
 
 .introduction {
-	width: 400px;
-	height: 500px;
-	border: 1px solid #000;
-	display: inline-block;
-	vertical-align: top;
+	margin-left: 0;
+	margin-right: auto;
+	padding: 20px;
+	height: 200px;
+	text-align: right;
+	color: white;
+	background-image: url(images/coffee.jpg);
+	background-size: cover;
 }
 
 .favorite {
-	width: 400px;
-	height: 500px;
-	border: 1px solid #000;
-	display: inline-block;
-	vertical-align: top;
+	margin-left: auto;
+	margin-right: 0;
+	padding: 20px;
+	height: 200px;
+	color: white;
+	background-image: url(images/cookie.jpg);
+	background-size: cover;
+}
+
+.bio {
+	margin-left: 0;
+	margin-right: auto;
+	padding: 20px;
+	text-align: right;
+	color: white;
+	background-image: url(images/macbook.jpg);
+	background-size: cover;
 }
